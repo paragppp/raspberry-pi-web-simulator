@@ -12,7 +12,7 @@ const BME280_OPTION = {
   i2cAddress: BME280.BME280_DEFAULT_I2C_ADDRESS() // defaults to 0x77
 };
 
-const connectionString = '[Your IoT hub device connection string]';
+const connectionString = '[Please paste your IoT hub device connection string]';
 const LEDPin = 4;
 
 var sendingMessage = false;
