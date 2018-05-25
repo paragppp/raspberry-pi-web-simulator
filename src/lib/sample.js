@@ -83,7 +83,7 @@ class Sample {
         const prefix = '76f98350';
         var replaces = [
             {
-                src: /require\('wiring-pi'\)/g,
+                src: /required\('wiring-pi'\)/g,
                 dest: 'wpi'
             }, {
                 src: /require\('azure-iot-device'\)\.Client/g,
